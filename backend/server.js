@@ -19,14 +19,7 @@ app.use(morgan("dev"));
 
 app.get("/api/products", (req, res) => {
     
-    res.status(200).json({
-        success: true,
-        data: [
-            { id: 1, name: "product 1"},
-            { id: 2, name: "product 2"},
-            { id: 3, name: "product 3"},
-        ],
-    });
+   
 });
 
 app.listen(PORT, () => {
