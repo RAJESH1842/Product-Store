@@ -1,5 +1,9 @@
-node_modules/
-.env
+# Node modules
+node_modules
+**/node_modules
 
-# psql 'postgresql://neondb_owner:npg_W5TFeKHfAy7R@ep-wild-paper-a8q8pwqa-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require'
+# Environment files
+.env
+**/.env
+
 
